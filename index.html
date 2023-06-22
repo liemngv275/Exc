@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .hover:hover, th:hover{
+        background-color: yellow;
+    }
+</style>
+<body>
+    <h1 style="text-align: center; color: red;">Bảng Thông Tin</h1>
+    <table style="width: 100%; height: 50%; border-collapse: collapse; ">
+          
+        <!-- Thead: nhóm các header của bảng-->
+
+        <thead style="border-collapse: collapse;">
+            <tr style="text-align: left;">
+
+                <!--Dòng tiêu đề bảng sử dụng TH-->
+                <th style="width: 50px; border: 1px solid black;"></th>
+                <th style="border: 1px solid black;" class="hover">Name</th>
+                <th style="border: 1px solid black;">Age</th>
+                <th style="border: 1px solid black;">Avatar</th>
+                <th style="border: 1px solid black;">Sex</th>
+                <th style="border: 1px solid black; width: 50px;">Note</th>
+                <th style="border: 1px solid black;">Link</th>
+            </tr>
+          </thead>  
+        
+        <!-- Tbody nhóm phần thân bảng-->
+        
+          <tbody>
+            <tr>
+                <td style="width: 50px; border: 1px solid black;" rowspan="4"></td>
+                <td style="border: 1px dotted blue;">Thuận</td>
+                <td style="border: 1px dotted blue; text-align: right; background-color: royalblue;">27</td>
+                <td style="border: 1px dotted blue; text-align: center;">
+                    <img src="https://e7.pngegg.com/pngimages/91/349/png-clipart-computer-icons-emoticon-super-sentai-avatar-smiley-avatar-computer-icons-emoticon-thumbnail.png" height="50px" width="50px" alt="None">
+                </td>
+                <td style="border: 1px solid red">
+                    <label for="Sex">Male</label>
+                    <input type="checkbox" value="" checked>
+                    <label for="Sex">Female</label>
+                    <input type="checkbox" value="">
+                </td>
+                <td style="border: 1px solid blue;">
+                    <textarea name="" id="a" cols="30px" rows="1px"></textarea>
+                </td>
+                <td style="border: 1px solid green;">
+                    <a href="https://www.facebook.com/profile.php?id=100025935952908" target="_blank">Thanh Thuan</a>
+                </td>
+            </tr>
+            <tr>
+                <!-- <td style="width: 50px; border: 1px solid black;"></td> -->
+                <td style="border: 1px dotted blue;">Hậu</td>
+                <td style="border: 1px dotted blue; text-align: right; background-color: royalblue;">27</td>
+                <td style="border: 1px dotted blue; text-align: center;">
+                    <img src="https://w7.pngwing.com/pngs/944/587/png-transparent-kimberly-hart-computer-icons-avatar-super-sentai-avatar-purple-heroes-magenta-thumbnail.png" height="50px" width="50px" alt="None">
+                </td>
+                <td style=" border: 1px solid red;">
+                    <label for="Sex">Male</label>
+                    <input type="checkbox" checked>
+                    <label for="Sex">Female</label>
+                    <input type="checkbox">
+                </td>
+                <td style="border: 1px solid blue;">
+                    <textarea name="" id="a" cols="30px" rows="1px"></textarea>
+                </td>
+                <td style="border: 1px solid green;">
+                    <a href="https://www.facebook.com/truonghau.ho" target="_blank">Hau Truong Ho</a>
+                </td>
+            </tr>
+            <tr>
+                <!-- <td style="width: 50px; border: 1px solid black;"></td> -->
+                <td style="border: 1px dotted blue">Liêm</td>
+                <td style="border: 1px dotted blue; text-align: right; background-color: royalblue;">27</td>
+                <td style="border: 1px dotted blue; text-align: center;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiRwdaGPnQ1nevF_79O1TBVKPF2KCzhqfyQmuTakBidufkQHIYOjtGOedGrdtASkr4qc&usqp=CAU" width="50px" height="50px" alt="">
+                </td>
+                <td style="border: 1px solid red;">
+                    <label for="Sex">Male</label>
+                    <input type="checkbox" checked>
+                    <label for="Sex">Female</label>
+                    <input type="checkbox">
+                </td>
+                <td style=" border: 1px solid blue;">
+                    <textarea name="" id="a" cols="30px" rows="1px"></textarea>
+                </td>
+                <td style="border: 1px solid green;">
+                    <a href="https://www.facebook.com/liem.nguyen.100483" target="_blank">Liem Nguyen</a>
+                </td>
+            </tr style="border: 1px solid black; height: 50px;">
+                <!-- <td style="height: 50px; border: 1px solid black;"></td> -->
+                <td style="border: 1px solid black; height: 50px" colspan="6"></td>
+                <!-- <td style="border: 1px solid black;"></td> -->
+                <!-- <td style="border: 1px solid black;"></td>
+                <td style="border: 1px solid black;"></td> -->
+                <!-- <td style="border: 1px solid black;"></td>
+                <td style="border: 1px solid black;"></td> -->
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
